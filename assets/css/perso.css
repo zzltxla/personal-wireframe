@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Skyscapers';
+	src: url('//2ttf.com/webfont/6IF8GLA3aiM/webfont.ttf') format('truetype');
+}
+
+html {
+    user-select: none;
+    scroll-behavior: smooth;
+    cursor: none;
+}
+body {
+    font-family: 'Skyscapers';
+    background-color: #050505;
+}
+img {
+    object-fit: cover;
+}
+::-webkit-scrollbar {
+    background-color: #050505;
+}
+::-webkit-scrollbar-thumb {
+    border: #FFFFFF 0.5px solid;
+    background-color: #050505;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
