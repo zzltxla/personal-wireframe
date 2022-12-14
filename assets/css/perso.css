@@ -1,16 +1,14 @@
-@font-face {
-	font-family: 'Skyscapers';
-	src: url('//2ttf.com/webfont/6IF8GLA3aiM/webfont.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Libre+Barcode+39+Text&display=swap');
 
 html {
     user-select: none;
     scroll-behavior: smooth;
-    cursor: none;
 }
-body {
-    font-family: 'Skyscapers';
-    background-color: #050505;
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #F3F3F3;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 img {
     object-fit: cover;
@@ -25,4 +23,78 @@ img {
 }
 ::-webkit-scrollbar-corner {
     background-color: transparent;
+}
+a {
+    color: #050505;
+    text-decoration: none;
+}
+
+#cursor-custom {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: #050505 0.5px solid;
+    display: none;
+}
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+nav {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #050505;
+    list-style: none;
+}
+.middle-nav {
+    display: none;
+}
+#nav-title {
+    font-family: 'Libre BArcode 39 Text', sans-serif;
+    font-size: 2.7rem;
+}
+button {
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: 25vw;
+    height: 3vh;
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    margin-left: 20vw;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+#menu-burger {
+    width: 8vw;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lines {
+    width: 1.3rem;
+    height: 0.2rem;
+    background-color: #050505;
+    margin: 0.2rem 0;
+}
+/*nav region ends here*/
+
+#flower-img {
+    width: 25vw;
+    height: 15vh;
+    float: right;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+.slide-img {
+    width: 45vw;
+    height: 35vh;
 }
